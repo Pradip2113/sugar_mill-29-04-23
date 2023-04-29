@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-26 18:28:59.854221",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "from_brix",
+  "to_brix",
+  "column_break_8qg3g",
+  "from_pairs",
+  "to_pairs",
+  "customer_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "from_brix",
+   "fieldtype": "Float",
+   "label": "From Brix",
+   "precision": "0"
+  },
+  {
+   "fieldname": "to_brix",
+   "fieldtype": "Float",
+   "label": "To Brix",
+   "precision": "0"
+  },
+  {
+   "fieldname": "from_pairs",
+   "fieldtype": "Float",
+   "label": "From Pairs",
+   "precision": "0"
+  },
+  {
+   "fieldname": "to_pairs",
+   "fieldtype": "Float",
+   "label": "To Pairs",
+   "precision": "0"
+  },
+  {
+   "fieldname": "column_break_8qg3g",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Link",
+   "label": "customer name",
+   "options": "Customer"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-04-26 18:44:50.419970",
+ "modified_by": "Administrator",
+ "module": "Sugar Mill",
+ "name": "Sampling Formula",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

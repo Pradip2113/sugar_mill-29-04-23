@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-13 10:20:27.956278",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item",
+  "basel",
+  "pre_earthing",
+  "earth",
+  "rainy",
+  "total"
+ ],
+ "fields": [
+  {
+   "fieldname": "item",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item",
+   "options": "Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "basel",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Basel",
+   "precision": "1"
+  },
+  {
+   "fieldname": "pre_earthing",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Pre Earthing",
+   "precision": "1"
+  },
+  {
+   "fieldname": "earth",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Earth",
+   "precision": "1"
+  },
+  {
+   "fieldname": "rainy",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Rainy",
+   "precision": "1"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Float",
+   "label": "Total"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-04-13 10:22:23.710535",
+ "modified_by": "Administrator",
+ "module": "Sugar Mill",
+ "name": "Agriculture Development Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

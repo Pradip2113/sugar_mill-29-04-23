@@ -1,0 +1,123 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-04-08 17:49:50.570885",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_fmglt",
+  "cart_no",
+  "vehicle_number",
+  "capcity",
+  "vehicle_status",
+  "trolly_1",
+  "trolly_2",
+  "section_break_ggvwq",
+  "driver_name",
+  "driver_village",
+  "driver_district",
+  "vehicle_type",
+  "issue_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "vehicle_number",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Vehicle Number",
+   "options": "Vehicle Master"
+  },
+  {
+   "fieldname": "vehicle_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Vehicle Type",
+   "options": "Vehicle Type"
+  },
+  {
+   "fetch_from": "vehicle_number.capcity",
+   "fieldname": "capcity",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Capcity",
+   "precision": "1"
+  },
+  {
+   "fieldname": "vehicle_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Vehicle Status",
+   "options": "Rental\nSelf"
+  },
+  {
+   "columns": 1,
+   "fieldname": "trolly_1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Trolly 1"
+  },
+  {
+   "columns": 1,
+   "fieldname": "trolly_2",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Trolly 2"
+  },
+  {
+   "fieldname": "section_break_fmglt",
+   "fieldtype": "Section Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "section_break_ggvwq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "cart_no",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Cart No"
+  },
+  {
+   "fieldname": "driver_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Driver Name"
+  },
+  {
+   "fieldname": "driver_village",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Driver Village",
+   "options": "Village"
+  },
+  {
+   "fieldname": "driver_district",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Driver District"
+  },
+  {
+   "columns": 1,
+   "fieldname": "issue_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Issue Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-04-27 15:20:57.413991",
+ "modified_by": "Administrator",
+ "module": "Sugar Mill",
+ "name": "Vehicle Registration item",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
